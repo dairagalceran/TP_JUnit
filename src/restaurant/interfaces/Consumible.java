@@ -1,4 +1,4 @@
-package restaurant;
+package restaurant.interfaces;
 
 public interface Consumible {
 	public void consumirStock(int cantidad);

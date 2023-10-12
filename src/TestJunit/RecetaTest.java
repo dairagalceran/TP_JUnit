@@ -2,11 +2,12 @@ package TestJunit;
 
 import org.junit.jupiter.api.*;
 import restaurant.*;
+import restaurant.exceptions.SinSuficientesIngredientesException;
+import restaurant.interfaces.Consumible;
 
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Random;
 
 import static restaurant.StockOld.consumirIngredientes;
 

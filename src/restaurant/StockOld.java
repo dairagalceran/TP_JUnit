@@ -1,5 +1,8 @@
 package restaurant;
 
+import restaurant.exceptions.SinSuficientesIngredientesException;
+import restaurant.interfaces.Consumible;
+
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,4 +1,6 @@
 package restaurant;
+import restaurant.exceptions.SinSaldoException;
+
 import java.util.Date;
 import java.util.Objects;
 

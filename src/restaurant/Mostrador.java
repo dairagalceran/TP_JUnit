@@ -1,4 +1,6 @@
 package restaurant;
+import restaurant.exceptions.SinSaldoException;
+
 import java.util.ArrayList;
 import java.util.List;
 

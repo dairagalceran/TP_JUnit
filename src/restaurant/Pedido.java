@@ -1,4 +1,6 @@
 package restaurant;
+import restaurant.exceptions.SinSaldoException;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -58,7 +60,7 @@ public class Pedido {
 		return acum;
 	}
 
-	void solicitarPedido() throws SinSaldoException{
+	void solicitarPedido() throws SinSaldoException {
 		float total=totalPedido();
 		this.getUsuario().descontarSaldo(total);
 		this.setEstado("Pagado");

@@ -1,4 +1,6 @@
-package restaurant;
+package restaurant.interfaces;
+
+import restaurant.exceptions.SinSuficientesIngredientesException;
 
 public interface Vendible {
 	public float getPrecioVenta();

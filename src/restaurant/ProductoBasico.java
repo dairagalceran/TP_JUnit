@@ -1,5 +1,7 @@
 package restaurant;
 
+import restaurant.interfaces.Consumible;
+
 public class ProductoBasico extends Producto implements Consumible {
 
 	public ProductoBasico(String nombre, float precioUnitarioCompra, float precioUnitarioVenta) {

@@ -1,6 +1,7 @@
 package restaurant;
 
-import java.util.ArrayList;
+import restaurant.interfaces.Consumible;
+
 import java.util.LinkedList;
 import java.util.List;
 

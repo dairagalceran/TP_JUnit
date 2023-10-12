@@ -1,6 +1,8 @@
 package restaurant;
 
-public class Ingrediente implements Consumible{
+import restaurant.interfaces.Consumible;
+
+public class Ingrediente implements Consumible {
 	String nombre;
 	String unidad;
 	int cantidad;

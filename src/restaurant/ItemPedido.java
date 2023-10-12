@@ -1,5 +1,7 @@
 package restaurant;
 
+import restaurant.exceptions.SinSuficientesIngredientesException;
+
 public class ItemPedido {
 	int cantidad;
 	Producto item;

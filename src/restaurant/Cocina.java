@@ -1,5 +1,7 @@
 package restaurant;
 
+import restaurant.exceptions.SinSuficientesIngredientesException;
+
 import java.util.List;
 
 public class Cocina  extends Thread {
